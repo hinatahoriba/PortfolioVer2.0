@@ -1,0 +1,53 @@
+/* 全体の余白と構造 */
+body {
+  font-family: "Hiragino Mincho ProN", "Hiragino Mincho Pro", "MS Mincho", "Times New Roman", serif;
+}
+
+.wrapper {
+  padding-top: 5rem; /* ナビバー分の余白 */
+  display: flex;
+  justify-content: center;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  width: 80%;
+}
+
+/* 共通のヒーロー */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.hero-text {
+  margin-top: 1.5rem;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+/* ダークモード */
+.dark-hero {
+  background-color: #000;
+  color: #fff;
+}
+
+.light-text {
+  color: #ccc;
+}

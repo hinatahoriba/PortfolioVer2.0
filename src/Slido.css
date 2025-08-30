@@ -1,0 +1,15 @@
+/* Slido.css */
+
+.slide-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-image {
+  width: 80%;
+  max-width: 900px;
+  height: auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+}
